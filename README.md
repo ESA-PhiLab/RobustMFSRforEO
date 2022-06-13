@@ -1,6 +1,9 @@
 # RobustMFSRforEO
 Developing Robust MFSR for Earth Observation
 
+## Code
+The source code for [Multi-Spectral Multi-Image Super-Resolution of Sentinel-2 with Radiometric Consistency Losses and Its Effect on Building Delineation](https://arxiv.org/abs/2111.03231) and code for estimating uncertainty of models.
+
 ## Environments
 
 #### Pip
@@ -25,33 +28,12 @@ conda env create -f environments/solarisenv.yml
 pip install solaris
 ```
 
-## Containers
-
-#### Singularity
-The image is in `/containers/mfsr.simg` .
-
-For an interactive shell:
-```
-singularity shell -B /data:/data /containers/mfsr.simg
-```
-
-and to run a script:
-```
-singularity exec /containers/mfsr.simg python3 main.py --epochs 8
-```
-
-#### Docker
-(tbc)
-
-
-
 ## Tests
 
 ```
 export PYTHONPATH=.
 pytest --cov-report term-missing --cov=src
 ```
-
 ## Dataset folder structure
 
 ```
