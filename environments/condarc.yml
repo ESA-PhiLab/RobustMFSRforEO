@@ -1,0 +1,14 @@
+# Show channel URLs when displaying what is going to be downloaded
+# and in 'conda list'. The default is False.
+show_channel_urls: True
+auto-update-conda: true
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+allow-softlinks: true
+channel-priority: strict
+use-only-tar-bz2: true
+auto-activate-base: false
+# For more information about this file see:
+# https://conda.io/docs/user-guide/configuration/use-condarc.html
