@@ -16,10 +16,13 @@ source ./venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Dataset folder structure
+## Dataset 
 
-Data is stored in `gs://fdl_misr/` public bucket. To download the data you can use `gsutil`.
+Data is stored in `gs://fdl_misr/` public bucket. To download the data you can use `gsutil`. 
 
+This [notebook](./notebooks/explore_dataset_fdl_misr.ipynb) may help you explore the dataset.  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ESA-PhiLab/RobustMFSRforEO/blob/main/notebooks/explore_dataset_fdl_misr.ipynb)
+
+The dataset follows this folder structure:
 ```
 gs://fdl_misr/
 └── public
