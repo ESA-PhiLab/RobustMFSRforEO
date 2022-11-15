@@ -18,6 +18,8 @@ pip install -r requirements.txt
 
 ## Dataset folder structure
 
+Data is stored in `gs://fdl_misr/` public bucket. To download the data you can use `gsutil`.
+
 ```
 gs://fdl_misr/
 └── public
