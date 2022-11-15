@@ -1,3 +1,5 @@
+<img src="https://images.squarespace-cdn.com/content/v1/5b5740828ab72299c0747f05/1563553398375-M5CAV18Z00IGJ2GJMF9X/fdleuropeESA.png?format=1500w">
+
 # Multi-spectral multi-image super-resolution of Sentinel-2 with radiometric consistency losses and its effect on building delineation
 
 **Muhammed Razzak, Gonzalo Mateo-Garcia, Gurvan Lecuyer, Luis Gómez-Chova, Yarin Gal and Freddie Kalaitzis**
