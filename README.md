@@ -4,9 +4,7 @@
 
 This repository contains the source code for [Multi-spectral multi-image super-resolution of Sentinel-2 with radiometric consistency losses and its effect on building delineation](https://doi.org/10.1016/j.isprsjprs.2022.10.019) and code for estimating uncertainty of models. Dataset is hosted on [SpaceML.org](https://spaceml.org/repo/project/61c0a1b9ff8868000dfb79e1).
 
-## Environments
-
-#### Pip
+## Set up environment
 
 ```
 virtualenv --python=python3.8 ./venv
@@ -48,3 +46,7 @@ If you find this work useful please cite:
 	pages = {1--13},
 }
 ```
+
+## Acknowledgments
+
+This work has been enabled by [Frontier Development Lab (FDL) Europe](https://fdleurope.org/), a public partnership between the European Space Agency (ESA) at Phi-Lab (ESRIN), Trillium Technologies and the University of Oxford; the project has been also supported by Google Cloud. G.M.G. and L.G.C. are funded by the Spanish Ministry of Science and Innovation, Spain (project PID2019-109026RB-I00). The authors would like to thank the support of James Parr and Jodie Hughes from the Trillium team and to Nicolas Longépé from ESA PhiLab for discussions and comments throughout the development of this work.
