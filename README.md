@@ -4,6 +4,8 @@
 
 **Muhammed Razzak, Gonzalo Mateo-Garcia, Gurvan Lecuyer, Luis Gómez-Chova, Yarin Gal and Freddie Kalaitzis**
 
+ISPRS Journal of Photogrammetry and Remote Sensing, vol. 195, pp. 1–13, Jan. 2023, DOI: [10.1016/j.isprsjprs.2022.10.019](https://doi.org/10.1016/j.isprsjprs.2022.10.019).
+
 This repository contains the source code for [Multi-spectral multi-image super-resolution of Sentinel-2 with radiometric consistency losses and its effect on building delineation](https://doi.org/10.1016/j.isprsjprs.2022.10.019) and code for estimating uncertainty of models. Dataset is hosted on [SpaceML.org](https://spaceml.org/repo/project/61c0a1b9ff8868000dfb79e1).
 
 ## Set up environment
