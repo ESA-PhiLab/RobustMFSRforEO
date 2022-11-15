@@ -14,7 +14,6 @@ source ./venv/bin/activate
 pip install -r requirements.txt
 ```
 
-```
 ## Dataset folder structure
 
 ```
@@ -23,9 +22,9 @@ gs://fdl_misr/
     └── L15-XXXE-XXXXN_XXXX_XXXX_XX
         ├── UDM_masks                # mask of clouds of planet imagery
         ├── images                   # Raw Planet Images
-        ├── labels                   # GeoJSON labels of buildings and clouds (don’t worry about labels match)
-        ├── masks                    # Labels in mask as geotiff form
-        └── S2L2A                    # L2 processed Sentinel imagery (using this one)        
+        ├── labels                   # GeoJSON labels of buildings and clouds of Planet images
+        ├── masks                    # SLC labels for Sentinel-2 L2A in geotiff
+        └── S2L2A                    # L2 processed Sentinel imagery
         
 ```
 
